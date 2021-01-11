@@ -11,11 +11,11 @@ Import react and react-dom dependencies from CDN and use react-script (webpack, 
 Say you have 10 react apps in your company.
 Each app will have its own React and ReactDom library which gets bundled into each app's built files.
 
-Size of React and ReactDom according to Import Cost is
-React - 8kb (3.2kb gzipped)
-ReactDOM - 122kb (40kb gzipped)
+Size of React and ReactDom according to Import Cost is:
 
-So basically, totally in your 10 apps, you have 80kb of React and over 1mb of ReactDOM.
+![image of build-size](./react-size.png)
+
+So basically, in your 10 apps, your users would have to download around 80kb of React and over 1mb of ReactDOM.
 
 ## How to overcome this redundancy?
 
