@@ -86,3 +86,7 @@ And then our react application code is downloaded.
 If you are going to use external react libraries, then this approach will be a bit cumbersome.
 
 Most libraries expect react in node_modules of you project. If the library is open source, you might have to change all the import statements in the library and use the modified one.
+
+## Disclaimer:
+
+Seems using Webpack's Module Federation (https://webpack.js.org/concepts/module-federation) is a better solution than this. But cdn solution is much easier.
